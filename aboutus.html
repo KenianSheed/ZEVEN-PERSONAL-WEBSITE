@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SALADINO WEBSITE</title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	
+	<div class="navbar">
+		<div class="logo">
+			<a href="index.html"><img src="image/blacklist.png" width="200px"></a>
+		</div>
+		<nav>
+			<ul id = "MenuItems">
+				<li><a href="index.html">HOME</a></li>
+				
+				<li><a href="aboutus.html">ABOUT</a></li>
+				<li><a href="contactus.html">CONTACT US</a></li>
+				<li><a href="account.html">ACCOUNT</a></li>
+			</ul>
+		</nav>
+		
+		<img src="image/menu.png" class = "menu-icon"onclick="menutoggle()">
+	</div>
+
+
+<!--------------aboutus---------------->
+
+<section class="about">
+	<div class="main">
+		<img src="image/white.png">
+		<div class="about-text">
+			<h1>About Us</h1>
+			<h5>BLACKLIST INTERNATIONAL<span> INFO</span></h5>
+			<p>Blacklist International was named as the best in the World after beating Onic PH 4-0 in all Filipino M3 World Championship Grand finals. <br> <br> Moving to the grand finals, both teams were undoubtedly strong. But like every tournament, there will always be one Champion. And that Blacklist International's draft was just dominating game after game. They only have to wait for their certain power spikes which will eventually come and that's the time the team will take over eventually leading to a 4-0 sweep. Coach Bon Chan the mastermind of Blacklist wins just knew how to defeat their Filipino rivals as they were the ones who they fought back in MPL PH season 8 Grand finals. <br> <br> The complete members of the team are Edward Jay "EDWARD" Dapadap, Danerie "Wise" James Del Rosario, Dexstar "Dex Star" Louise Alaba, Johnmar "OhMyV33NUS" Villaluna, Kiel Calvin "OHEB" Soriano, Mark Jayson "ESON" Gerardo, Salic "Hadji" Imam, and Coach Kristoffer "Bon Chan" Ricaplaza. Their win on the M3 world championship also means that it's a back-to-back title for the Philippines. </p>
+
+			<a href="contactus.html"><button type="button">Contact Us</button></a>
+		</div>
+	</div>
+</section>
+
+
+
+<!---------footer-------->
+
+<div class = "footer">
+
+			<div class = "container">
+
+				<div class = "row">
+
+					<div class = "footer-col-1">
+
+						<h3>Download Our App</h3>
+						<p>Download App for Android and Ios Mobile Phone</p>
+						<div class = "app-logo">
+							<img src = "image/apple.png">
+							<img src = "image/playstore.png">
+						</div>
+
+					</div>
+						<div class = "footer-col-2">
+
+						<img src ="image/white.png">
+						<p>Our purpose is to make people appreciate our own local design</p>
+
+					</div>
+					<div class = "footer-col-3">
+
+						<h3>Useful Links</h3>
+						<ul>
+							<li>Coupons</li>
+							<li>Blog Post</li>
+							<li>Return Policy</li>
+							<li>Join Us</li>
+						</ul>
+
+					</div>
+					<div class = "footer-col-4">
+
+						<h3>Follow Us</h3>
+						<ul>
+							<li>Facebook</li>
+							<li>Instagram</li>
+							<li>Shopee</li>
+							<li>Youtube</li>
+						</ul>
+
+					</div>
+				</div>
+  				<hr>
+  				<p class ="Copyright">Copyright 2022 - ZMRJJ CLOTHING</p>
+			</div>
+
+		</div>	
+
+
+<script>
+	
+	var MenuItems = document.getElementById("MenuItems");
+
+	MenuItems.style.maxHeight = "0px";
+
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px")
+		{
+			MenuItems.style.maxHeight = "200px";
+		}
+		else 
+		{
+			MenuItems.style.maxHeight = "0px";
+		}
+	}
+
+</script>
+
+
+</body>
